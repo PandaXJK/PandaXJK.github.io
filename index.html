@@ -1,8 +1,49 @@
-<!-- 这是你的第一个免费托管网页 -->
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小猫跑跑官方“速”通</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            min-height: 100vh;
+            padding: 30px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px;
+            color: #ff4081;
+            text-shadow: 3px 3px 0 #fff, 5px 5px 10px rgba(0,0,0,0.2);
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        .video-box {
+            margin: 30px auto;
+            max-width: 900px;
+        }
+        video {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            background: #000;
+        }
+    </style>
+</head>
 <body>
-  <h1>我的免费托管网站！</h1>
-  <p>用 GitHub + Git 部署成功啦~</p>
+    <h1>小猫跑跑官方“速”通</h1>
+
+    <!-- 仅保留单个视频，视频源为 速通.webm -->
+    <div class="video-box">
+        <video controls>
+            <source src="速通.webm" type="video/webm">
+            您的浏览器不支持视频播放
+        </video>
+    </div>
 </body>
 </html>
